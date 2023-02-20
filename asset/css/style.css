@@ -1,0 +1,151 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    margin-left: 1em;
+}
+
+table{
+    border-spacing: 0;
+}
+
+/* page structure */
+
+header{
+    background-color: orange;
+    min-height: 400px;
+    padding: 15px 20% 50px;
+}
+
+#banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#banner-text{
+    background-color: brown;
+    margin-top: 10%;
+    min-height: 300px;
+}
+
+#footer-top{
+    display: flex;
+    background-color: orange ;
+    min-height: 300px;
+    padding: 30px 20% 30px;
+    justify-content: space-between;
+}
+
+#footer-bot{
+    background-color: orange ;
+    min-height: 50px;
+    padding: 0px 20% 30px;
+}
+
+#p1{
+    display: flex;
+    background-color: aqua;
+    min-height: 500px;
+    align-items: center;
+    padding: 5% 20%;
+}
+
+#p2{
+    display: flex;
+    background-color: rgb(3, 255, 24);
+    min-height: 500px;
+    align-items: center;
+    padding: 5% 20%;
+}
+
+#p3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(3, 255, 24);
+    min-height: 700px;
+    align-items: center;
+    padding: 5% 20%;
+}
+
+
+#logo-box{
+    background-color: brown;
+    flex-basis: 5%;
+    padding: 15px
+}
+
+#nav-box{
+    background-color: brown;
+    flex-basis: 40%;
+    padding: 15px
+}
+
+#log-in-box{
+    background-color: brown;
+    flex-basis: 5%;
+    padding: 15px
+}
+
+.fc1{
+    background-color: brown;
+    flex-basis: 25%;
+}
+
+.fc2{
+    background-color: brown;
+    flex-basis: 15%;
+}
+
+.fb{
+    background-color: brown;
+    min-height: 50px;
+}
+
+.img-box1{
+    background-color: blue;
+    height: 400px;
+    flex-basis: 60%;
+}
+
+.text-box1{
+    background-color: blueviolet;
+    height: 400px;
+    flex-basis: 40%;
+}
+
+.img-box2{
+    background-color: blue;
+    height: 400px;
+    flex-basis: 60%;
+}
+
+.text-box2{
+    background-color: blueviolet;
+    height: 400px;
+    flex-basis: 40%;
+}
+
+.p3-title{
+    background-color: blueviolet;
+    width: 100%;
+    height: 150px;
+}
+
+.p3-img{
+    background-color: blue;
+    width: 100%;
+    height: 300px;
+
+}
+
+.p3-button{
+    background-color: brown;
+    width: 100%;
+    height: 150px;
+}
